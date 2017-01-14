@@ -1,0 +1,82 @@
+html, body {
+      margin: 0;
+      padding: auto;
+    }
+
+    *{
+      box-sizing: content-box;
+    }
+
+    .slider {
+        width: 85%;
+        margin: 5px auto;
+    }
+
+    .slick-slide {
+      margin: 100px 1px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        color: black;
+    }
+	
+	#img1:hover{
+ width: 200px;
+ height: auto;
+ box-shadow: 0 auto 6px -6px #666,0 0 9px 0 #ccc;
+ margin: -1% 0% 0% -1%;
+ border-radius:75px;
+ CURSOR:pointer;
+}
+	
+ .blockimgs img{ 
+-webkit-transition:all 0.9s ease-out;/* Заставляем плавно изменять css св-ва*/ 
+-moz-transition:all 0.9s ease-out; 
+-o-transition:all 0.9s ease-out; 
+-ms-transition:all 0.9s ease-out; 
+height:auto; 
+width:200px; 
+overflow:hidden; 
+-webkit-box-shadow:1mm auto 10px #6E6E6E; 
+box-shadow:1px auto 10px #6E6E6E; 
+float:center; 
+cursor:pointer; 
+} 
+.blockimgs { display:table-cell; float:left; height:auto; min-height:auto; width:212px;} 
+.blockimgs img:hover{ 
+transform:scale(3); /* Увеличиваем картинку при наведении*/ 
+-webkit-transform:scale(3); 
+-moz-transform:scale(3); 
+-o-transform:scale(3); 
+margin-left:10px;
+margin-top:10px;
+box-shadow:0 10px 15px rgba(0,0,0,0.5);
+z-index:200;}
+
+#amazingcarousel-1 .amazingcarousel-title {
+	position:relative;
+	font: bold 12px 'Open Sans', sans-serif;
+	color:#333333;
+	margin:6px;
+	text-align:center;
+	line-height: 14px;
+	height: 14px;
+	overflow: hidden;
+}
+
+#amazingcarousel-1 .amazingcarousel-description {
+	position:relative;
+	font: 14px 'Open Sans', sans-serif;
+	color:#333333;
+	margin:6px;
+	text-align:left;
+	line-height: 10px;		
+	height: 50px;
+	overflow: hidden;
+}
+
